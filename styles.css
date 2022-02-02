@@ -55,10 +55,6 @@ ul{
     font-size: 18px;
     
 }
-.headerAbout{
-    
-
-}
 img{
     max-width: 100%;
     max-height: 100%;
@@ -74,6 +70,27 @@ h1{
 }
 .projects{
     background: #333533;
-    display: flex; 
+    display: flex;
     padding: 100px;
+}
+.accordion{
+    background-color: #eee;
+    color: #444; 
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.active, .accordion:hover{
+    background-color: white;
+}
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
