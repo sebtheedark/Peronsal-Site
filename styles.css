@@ -107,8 +107,7 @@ h1{
 .content{
     display: flex; 
     align-items: center;
-    justify-content: center;
-    padding: 
+    justify-content: center;    
 }
 .gamesButton{
     
