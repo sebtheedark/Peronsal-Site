@@ -112,3 +112,23 @@ h1{
 .gamesButton{
     
 }
+.contentPics{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+.contentLeft{
+    display: flex;
+    padding-right: 40px;
+}
+.contentRight{
+    
+}
+.formatPhoto{
+    width: 500px;
+    height: 329px;
+}
+.captions{
+    text-align: center;
+}

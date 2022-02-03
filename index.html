@@ -53,7 +53,8 @@
           <h2>Projects</h2>
         </div>
       </div>
-      <button class="accordion">
+      <!-- First Project (Games Web)-->
+      <button class="accordion" onclick="accordionClick()">
         Web Application and Development: We Play Games
       </button>
       <div class="panel">
@@ -74,11 +75,42 @@
           >
             View the Site!
           </button>
+          <button
+            onclick="window.location.href='https://github.com/sebtheedark/Games-Web';"
+            class="gamesButton"
+          >
+            Code/Repo!
+          </button>
         </div>
       </div>
-      <button class="accordion">Project 2</button>
+      <!-- Second Project (Capstone/Verizon) -->
+      <button class="accordion" onclick="accordionClick()">
+        System Analysis and Design: Video Conferencing
+      </button>
       <div class="panel">
-        <p>Info number 2</p>
+        <div class="contentPics">
+          <div class="contentLeft">
+            <p>
+              Led a group that was designated as the systems analysis and design
+              team. The team was tasked with designing a system that would
+              benefit and meet the needs of a designated company. Our team
+              designed different aspects of an enterprise video conferencing
+              software and how they would interact with one another, they were
+              showcased via Use Cases, Domain Models, and System Sequence
+              diagrams just to name a few.
+            </p>
+          </div>
+          <div class="contentRight">
+            <div class="slides">
+              <div class="myPhotos">
+                <div class="formatPhoto">
+                  <img src="pics/DCD.png" style="width: 100%" />
+                </div>
+                <div class="captions">Design Class Diagram</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="scripts.js"></script>
