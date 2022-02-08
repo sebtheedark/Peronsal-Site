@@ -2,7 +2,7 @@ body{
     margin: 0; 
     padding: 0; 
     background-color: #F1F7EE;
-    font-family: 'Trebuchet MS'; 
+    font-family: 'sans-serif'; 
 }
 .top-section{
     background: #242423;
@@ -127,7 +127,7 @@ h1{
 }
 .formatPhoto{
     width: 500px;
-    height: 329px;
+    height: 375px;
 }
 .captions{
     text-align: center;
@@ -159,4 +159,16 @@ h1{
 .next{
     right: 0; 
     border-radius: 3px 0 0 3px;
+}
+/* Contact Me */
+.contact{
+    padding: 60px; 
+    background: #eaf4f4;
+}
+.contactTitle{
+    text-align: center;
+    font-size: 20px;
+}
+#email{
+    color: black; 
 }
